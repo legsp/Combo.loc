@@ -1,0 +1,312 @@
+# Translation of Plugins - Order on Mobile for WooCommerce - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Order on Mobile for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-04 02:27:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Order on Mobile for WooCommerce - Stable (latest release)\n"
+
+#: woo-order-on-whatsapp.php:66
+msgid "%1$s requires WordPress version %2$s or greater."
+msgstr "%1$s requer a versão %2$s do WordPress ou superior."
+
+#: woo-order-on-whatsapp.php:49
+msgid "%1$s requires PHP version %2$s or greater."
+msgstr "%1$s requer a versão %2$s do PHP ou superior."
+
+#: templates/admin/tab-support.php:12
+msgid "Hey, thank you for using our plugin! If you need anything, contact us on"
+msgstr "Ei, obrigador por usar nosso plugin! Se você precisar de alguma coisa, fale conosco através"
+
+#: templates/admin/tab-support.php:11
+msgid "Do you need support?"
+msgstr "Você precisa de suporte?"
+
+#: templates/admin/tab-single-product.php:62
+msgid "Yes, remove Add to Cart button."
+msgstr "Sim, remover botão \"Adicionar o carrinho\""
+
+#: templates/admin/tab-single-product.php:59
+msgid "Hide \"Add to Cart\" Button?"
+msgstr "Ocultar botão \"Adicionar ao Carrinho\""
+
+#: templates/admin/tab-single-product.php:53
+msgid "Yes, remove price in Product page."
+msgstr "Sim, remover preço da Página do produto."
+
+#: templates/admin/tab-single-product.php:50
+msgid "Hide Price in Product Page?"
+msgstr "Ocultar preço da Página do produto?"
+
+#: templates/admin/tab-single-product.php:44
+msgid "Yes, remove WhatsApp Button on Desktop."
+msgstr "Sim, remova o botão do WhatsApp no Área de Trabalho."
+
+#: templates/admin/tab-single-product.php:41
+msgid "Hide button on desktop device?"
+msgstr "Ocultar botão da área de trabalho?"
+
+#: templates/admin/tab-header.php:17 templates/admin/tab-support.php:8
+#: templates/admin/tab-support.php:12
+msgid "Support"
+msgstr "Suporte"
+
+#: templates/admin/tab-header.php:15 templates/admin/tab-single-product.php:8
+msgid "Product Page"
+msgstr "Página de produto"
+
+#: templates/admin/tab-header.php:13
+msgid "General"
+msgstr "Geral"
+
+#: templates/admin/tab-footer.php:11 templates/admin/tab-header.php:9
+msgid "Order on WhatsApp for WooCommerce"
+msgstr "Order on WhatsApp for WooCommerce"
+
+#: templates/admin/tab-general.php:53
+msgid "Now, the <b>PRO version</b> has a <b>Widget for Elemento!</b> You can use that in all pages, and select wath product the button get and redirect information for WhatsApp. Open Elementor editor and search for: \"Order on WhatsApp Button\"."
+msgstr "Agora, a <b>versão PRO</b> possui um <b>Widget para o Elementor!</b> Você pode usá-lo em todas as páginas e selecionar qual produto o botão irá pegar e redirecionar as informações para o WhatsApp. Abra o editor do Elementor e procure por: \"Botão de Pedido no WhatsApp\"."
+
+#: templates/admin/tab-general.php:52
+msgid "Widget for Elementor"
+msgstr "Widget para Elementor"
+
+#: templates/admin/tab-general.php:45
+msgid "The button will be displayed on cart page."
+msgstr "O botão será exibido na página do carrinho."
+
+#: templates/admin/tab-general.php:44
+msgid "Yes, show button in cart page."
+msgstr "Sim, mostre o botão na página do carrinho."
+
+#: templates/admin/tab-general.php:41
+msgid "Show button in cart page?"
+msgstr "Exibir o botão na página do carrinho?"
+
+#: templates/admin/tab-general.php:35
+msgid "The button will be displayed on product page after \"add to cart\" button."
+msgstr "O botão será exibido na página do produto após botão \"adicionar ao carrinho\"."
+
+#: templates/admin/tab-general.php:34
+msgid "Yes, show button in single product page."
+msgstr "Sim, mostrar botão na página de produto único."
+
+#: templates/admin/tab-general.php:31
+msgid "Show button in Product page?"
+msgstr "Exibir o botão na página do produto?"
+
+#: templates/admin/tab-general.php:26
+msgid "Customer will be redirected to WhatsApp with a custom message defined on tab \"Checkout\"."
+msgstr "O cliente será redirecionado para o WhatsApp com uma mensagem personalizada definida na finalização de compra."
+
+#: templates/admin/tab-general.php:25
+msgid "Yes, redirect after checkout."
+msgstr "Sim, redirecionar depois do checkout."
+
+#: templates/admin/tab-general.php:22
+msgid "Auto redirect after checkout?"
+msgstr "Redirecionar automaticamente depois do checkout?"
+
+#: templates/admin/tab-general.php:17
+msgid "Enter with your country code 5551XXXXXXXXX"
+msgstr "Adicione o telefone com o código do País 5551XXXXXXXXX"
+
+#: templates/admin/tab-general.php:13
+msgid "WhatsApp Number"
+msgstr "Número do WhatsApp"
+
+#: templates/admin/tab-general.php:8
+msgid "General Settings"
+msgstr "Configurações gerais"
+
+#: templates/admin/tab-footer.php:17
+msgid "Save settings"
+msgstr "Salvar configurações"
+
+#: templates/admin/tab-checkout.php:54
+msgid "Get value from custom order meta (Inputs created in the checkout form)"
+msgstr "Obtenha valor dos metadados de pedido personalizado (Entradas criadas no formulário de finalização de compra)"
+
+#: templates/admin/tab-checkout.php:53
+msgid "Get value from custom fields"
+msgstr "Obtenha valor dos campos personalizados."
+
+#: templates/admin/tab-checkout.php:52
+msgid "Shipping Method"
+msgstr "Método de envio"
+
+#: templates/admin/tab-checkout.php:51
+msgid "Shipping Total"
+msgstr "Total de envio"
+
+#: templates/admin/tab-checkout.php:50
+msgid "Customer Zipcode"
+msgstr "CEP do cliente"
+
+#: templates/admin/tab-checkout.php:49
+msgid "Customer City"
+msgstr "Cidade do cliente"
+
+#: templates/admin/tab-checkout.php:48
+msgid "Customer State"
+msgstr "Estado do cliente"
+
+#: templates/admin/tab-checkout.php:47
+msgid "Customer Address"
+msgstr "Endereço do cliente"
+
+#: templates/admin/tab-checkout.php:46
+msgid "Customer Mail"
+msgstr "E-mail do Cliente."
+
+#: templates/admin/tab-checkout.php:45
+msgid "Customer Phone"
+msgstr "Telefone do cliente"
+
+#: templates/admin/tab-checkout.php:44
+msgid "Customer name"
+msgstr "Nome do cliente"
+
+#: templates/admin/tab-checkout.php:43
+msgid "Order Products. This token is the result of the configuration above, don't forget to add it."
+msgstr "Produtos do pedido. Este token é o resultado da configuração acima, não se esqueça de adicioná-lo."
+
+#: templates/admin/tab-checkout.php:42
+msgid "Order Note"
+msgstr "Nota do pedido"
+
+#: templates/admin/tab-checkout.php:41
+msgid "Order Total"
+msgstr "Total do pedido"
+
+#: templates/admin/tab-checkout.php:40
+msgid "Order Subtotal"
+msgstr "Subtotal do pedido."
+
+#: templates/admin/tab-checkout.php:39
+msgid "Order Payment"
+msgstr "Pagamento do pedido"
+
+#: templates/admin/tab-checkout.php:38
+msgid "Order Number"
+msgstr "Número do pedido"
+
+#: templates/admin/tab-checkout.php:35
+msgid "Avaliable tokens for message."
+msgstr "Tokens disponíveis para mensagem."
+
+#: templates/admin/tab-checkout.php:34
+msgid "Custom Order Message"
+msgstr "Mensagem de pedido personalizada"
+
+#: templates/admin/tab-checkout.php:31
+msgid "\"Template for Products Loop\" its a loop, so you must use each token once. The plugin will repeat this loop for all products in your order."
+msgstr "\"O modelo para loop de produtos\" é um loop, então você deve usar cada token uma vez. O plugin repetirá este loop para todos os produtos no seu pedido."
+
+#: templates/admin/tab-checkout.php:30
+msgid "Important:"
+msgstr "Importante:"
+
+#: templates/admin/tab-checkout.php:24
+msgid "Product Atributes"
+msgstr "Atributos do produto"
+
+#: templates/admin/tab-checkout.php:23
+msgid "Product Sku"
+msgstr "SKU do produto"
+
+#: templates/admin/tab-checkout.php:22
+msgid "Product Quantity"
+msgstr "Quantidade do produto"
+
+#: templates/admin/tab-checkout.php:21
+msgid "Product Price"
+msgstr "Preço do produto"
+
+#: templates/admin/tab-checkout.php:20
+msgid "Product Name"
+msgstr "Nome do produto"
+
+#: templates/admin/tab-checkout.php:17
+msgid "Avaliable tokens for product loop."
+msgstr "Tokens disponíveis para o loop de produtos."
+
+#: templates/admin/tab-checkout.php:16
+msgid "Template for Products Loop"
+msgstr "Modelo para loop de produtos"
+
+#: templates/admin/tab-checkout.php:13
+msgid "Create full custom message in \"Custom Order Message\" for use when customer is redirects to WhatsApp after checkout."
+msgstr "Crie uma mensagem personalizada completa em \"Mensagem de Pedido Personalizada\" para uso quando o cliente for redirecionado ao WhatsApp após a finalização de compra."
+
+#: templates/admin/tab-checkout.php:12
+msgid "Define the template for products loop in \"Template for Products Loop\" for use in your custom message."
+msgstr "Defina o modelo para o loop de produtos em \"Modelo para Loop de Produtos\" para uso na sua mensagem personalizada."
+
+#: templates/admin/tab-checkout.php:11
+msgid "How to use?"
+msgstr "Como usar?"
+
+#: templates/admin/tab-checkout.php:8 templates/admin/tab-header.php:14
+msgid "Checkout"
+msgstr "Finalização de compra"
+
+#: templates/admin/tab-cart.php:36 templates/admin/tab-single-product.php:35
+msgid "Yes, open in new tab."
+msgstr "Sim, abrir em uma nova aba."
+
+#: templates/admin/tab-cart.php:33 templates/admin/tab-single-product.php:32
+msgid "Open in new tab?"
+msgstr "Abrir em nova aba?"
+
+#: templates/admin/tab-cart.php:24 templates/admin/tab-single-product.php:23
+msgid "Button text"
+msgstr "Texto do botão"
+
+#: templates/admin/tab-cart.php:15 templates/admin/tab-single-product.php:14
+msgid "Your custom message"
+msgstr "Sua mensagem personalizada"
+
+#: templates/admin/tab-cart.php:9 templates/admin/tab-header.php:16
+msgid "Cart Page"
+msgstr "Página do carrinho"
+
+#: templates/admin/tab-advanced.php:8
+msgid "Advanced Settings"
+msgstr "Configurações avançadas"
+
+#: includes/class-utils.php:54
+msgid "Only on Pro"
+msgstr "Apenas na versão Pro"
+
+#: includes/class-omw-plugin.php:179
+msgid "%1$s requires WooCommerce to be installed and activated."
+msgstr "%1$s requer que o WooCommerce esteja instalado e ativado."
+
+#: includes/class-button-product-page.php:73
+msgid "Sorry, its not a product page. Please use this shortcode only on your product page."
+msgstr "Não é uma página de produto. Por favor, use este shortcode apenas na página do produto."
+
+#: includes/class-button-cart.php:58
+msgid "Cart Total: "
+msgstr "Total do carrinho: "
+
+#. Author URI of the plugin
+#: woo-order-on-whatsapp.php
+msgid "https://eduardovillao.me/"
+msgstr "https://eduardovillao.me/"
+
+#. Author of the plugin
+#: woo-order-on-whatsapp.php
+msgid "EduardoVillao.me"
+msgstr "EduardoVillao.me"
+
+#. Plugin Name of the plugin
+#: woo-order-on-whatsapp.php
+msgid "Order on Mobile for WooCommerce"
+msgstr "Order on Mobile for WooCommerce"

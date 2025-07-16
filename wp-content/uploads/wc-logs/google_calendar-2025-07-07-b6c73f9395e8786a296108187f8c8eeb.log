@@ -1,0 +1,474 @@
+2025-07-07T15:44:07+00:00 NOTICE Getting Google API Access Token... CONTEXT: {"_legacy":true}
+2025-07-07T15:44:07+00:00 NOTICE Failed to retrieve and generate the Access Token CONTEXT: {"_legacy":true}
+2025-07-07T15:44:07+00:00 NOTICE Error while synchronizing the booking #6092: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [www-authenticate] => Bearer realm="https://accounts.google.com/"
+                    [vary] => Array
+                        (
+                            [0] => Origin
+                            [1] => X-Origin
+                            [2] => Referer
+                        )
+
+                    [content-type] => application/json; charset=UTF-8
+                    [content-encoding] => gzip
+                    [date] => Mon, 07 Jul 2025 15:44:07 GMT
+                    [server] => ESF
+                    [x-xss-protection] => 0
+                    [x-frame-options] => SAMEORIGIN
+                    [x-content-type-options] => nosniff
+                    [alt-svc] => h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+                    [x-l2-request-path] => l2-managed-14
+                )
+
+        )
+
+    [body] => {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Login Required.",
+        "domain": "global",
+        "reason": "required",
+        "location": "Authorization",
+        "locationType": "header"
+      }
+    ],
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "calendar.v3.Events.Insert",
+          "service": "calendar-json.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Login Required.",
+        "domain": "global",
+        "reason": "required",
+        "location": "Authorization",
+        "locationType": "header"
+      }
+    ],
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "calendar.v3.Events.Insert",
+          "service": "calendar-json.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+                    [raw] => HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Bearer realm="https://accounts.google.com/"
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Type: application/json; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 07 Jul 2025 15:44:07 GMT
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+x-l2-request-path: l2-managed-14
+Connection: close
+Transfer-Encoding: chunked
+
+{
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Login Required.",
+        "domain": "global",
+        "reason": "required",
+        "location": "Authorization",
+        "locationType": "header"
+      }
+    ],
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "calendar.v3.Events.Insert",
+          "service": "calendar-json.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [www-authenticate] => Array
+                                        (
+                                            [0] => Bearer realm="https://accounts.google.com/"
+                                        )
+
+                                    [vary] => Array
+                                        (
+                                            [0] => Origin
+                                            [1] => X-Origin
+                                            [2] => Referer
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json; charset=UTF-8
+                                        )
+
+                                    [content-encoding] => Array
+                                        (
+                                            [0] => gzip
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 07 Jul 2025 15:44:07 GMT
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => ESF
+                                        )
+
+                                    [x-xss-protection] => Array
+                                        (
+                                            [0] => 0
+                                        )
+
+                                    [x-frame-options] => Array
+                                        (
+                                            [0] => SAMEORIGIN
+                                        )
+
+                                    [x-content-type-options] => Array
+                                        (
+                                            [0] => nosniff
+                                        )
+
+                                    [alt-svc] => Array
+                                        (
+                                            [0] => h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+                                        )
+
+                                    [x-l2-request-path] => Array
+                                        (
+                                            [0] => l2-managed-14
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://www.googleapis.com/calendar/v3/calendars//events
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2025-07-07T15:44:08+00:00 NOTICE Getting Google API Access Token... CONTEXT: {"_legacy":true}
+2025-07-07T15:44:08+00:00 NOTICE Failed to retrieve and generate the Access Token CONTEXT: {"_legacy":true}
+2025-07-07T15:44:09+00:00 NOTICE Error while synchronizing the booking #6092: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [www-authenticate] => Bearer realm="https://accounts.google.com/"
+                    [vary] => Array
+                        (
+                            [0] => Origin
+                            [1] => X-Origin
+                            [2] => Referer
+                        )
+
+                    [content-type] => application/json; charset=UTF-8
+                    [content-encoding] => gzip
+                    [date] => Mon, 07 Jul 2025 15:44:09 GMT
+                    [server] => ESF
+                    [x-xss-protection] => 0
+                    [x-frame-options] => SAMEORIGIN
+                    [x-content-type-options] => nosniff
+                    [alt-svc] => h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+                    [x-l2-request-path] => l2-managed-14
+                )
+
+        )
+
+    [body] => {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Login Required.",
+        "domain": "global",
+        "reason": "required",
+        "location": "Authorization",
+        "locationType": "header"
+      }
+    ],
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "calendar.v3.Events.Insert",
+          "service": "calendar-json.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Login Required.",
+        "domain": "global",
+        "reason": "required",
+        "location": "Authorization",
+        "locationType": "header"
+      }
+    ],
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "calendar.v3.Events.Insert",
+          "service": "calendar-json.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+                    [raw] => HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Bearer realm="https://accounts.google.com/"
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Type: application/json; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 07 Jul 2025 15:44:09 GMT
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+x-l2-request-path: l2-managed-14
+Connection: close
+Transfer-Encoding: chunked
+
+{
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Login Required.",
+        "domain": "global",
+        "reason": "required",
+        "location": "Authorization",
+        "locationType": "header"
+      }
+    ],
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "calendar.v3.Events.Insert",
+          "service": "calendar-json.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [www-authenticate] => Array
+                                        (
+                                            [0] => Bearer realm="https://accounts.google.com/"
+                                        )
+
+                                    [vary] => Array
+                                        (
+                                            [0] => Origin
+                                            [1] => X-Origin
+                                            [2] => Referer
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json; charset=UTF-8
+                                        )
+
+                                    [content-encoding] => Array
+                                        (
+                                            [0] => gzip
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 07 Jul 2025 15:44:09 GMT
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => ESF
+                                        )
+
+                                    [x-xss-protection] => Array
+                                        (
+                                            [0] => 0
+                                        )
+
+                                    [x-frame-options] => Array
+                                        (
+                                            [0] => SAMEORIGIN
+                                        )
+
+                                    [x-content-type-options] => Array
+                                        (
+                                            [0] => nosniff
+                                        )
+
+                                    [alt-svc] => Array
+                                        (
+                                            [0] => h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+                                        )
+
+                                    [x-l2-request-path] => Array
+                                        (
+                                            [0] => l2-managed-14
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://www.googleapis.com/calendar/v3/calendars//events
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
+ CONTEXT: {"_legacy":true}

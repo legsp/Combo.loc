@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Booking & Rental System 18.0.4\n"
+"Language: pt_BR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: redq-rental-and-bookings.php
+msgid "WooCommerce Booking & Rental System"
+msgstr "Sistema de Reserva e Aluguel do WooCommerce"
+
+msgid "Activate License"
+msgstr "Ativar Licença"
+
+msgid "All Inventories"
+msgstr "Todos os Estoques"
+
+msgid "Add New Inventory"
+msgstr "Adicionar Novo Estoque"
+
+msgid "RnB Orders"
+msgstr "Pedidos RnB"
+
+msgid "Quotes"
+msgstr "Cotações"
+
+msgid "RnB Calendar"
+msgstr "Calendário RnB"
+
+msgid "Resources"
+msgstr "Recursos"
+
+msgid "Categories"
+msgstr "Categorias"
+
+msgid "Person"
+msgstr "Pessoa"
+
+msgid "Deposits"
+msgstr "Depósitos"
+
+msgid "Pickup Locations"
+msgstr "Locais de Retirada"
+
+msgid "Return Locations"
+msgstr "Locais de Devolução"
+
+msgid "Features"
+msgstr "Funcionalidades"
+
+msgid "Attributes"
+msgstr "Atributos"
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Docs"
+msgstr "Documentação"
+
+msgid "Support Forum"
+msgstr "Fórum de Suporte"
+
+msgid "Extensions"
+msgstr "Extensões"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Você não tem permissões suficientes para acessar esta página."
+
+msgid "Clear Dates"
+msgstr "Limpar Datas"
+
+msgid "Refund Deposit"
+msgstr "Reembolsar Depósito"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Book Now"
+msgstr "Reservar Agora"
+
+msgid "Pickup Date"
+msgstr "Data de Retirada"
+
+msgid "Return Date"
+msgstr "Data de Devolução"
+
+msgid "Duration"
+msgstr "Duração"
+
+msgid "Quantity"
+msgstr "Quantidade"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Phone"
+msgstr "Telefone"
+
+msgid "Username"
+msgstr "Nome de usuário"
+
+msgid "Password"
+msgstr "Senha"
+
+msgid "Message"
+msgstr "Mensagem"
+
+msgid "Quote Request"
+msgstr "Solicitação de Cotação"
+
+msgid "Search Quote"
+msgstr "Buscar Cotação"
